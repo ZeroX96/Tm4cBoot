@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\IAR\IAR_EWARM_8.20.1\common\bin\cspybat" -f "D:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.general.xcl" --backend -f "D:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "H:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.general.xcl" --backend -f "H:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.driver.xcl" 
 }
 else
 {
-& "C:\IAR\IAR_EWARM_8.20.1\common\bin\cspybat" -f "D:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "H:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.general.xcl" --debug_file=$debugfile --backend -f "H:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\settings\Tm4cBoot_IAR.Debug.driver.xcl" 
 }

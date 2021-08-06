@@ -6,6 +6,8 @@
 
 --plugin "C:\IAR\IAR_EWARM_8.20.1\arm\bin\armbat.dll" 
 
+--device_macro "C:\IAR\IAR_EWARM_8.20.1\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
 
 
 

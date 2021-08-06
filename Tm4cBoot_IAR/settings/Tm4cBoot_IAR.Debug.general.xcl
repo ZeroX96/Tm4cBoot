@@ -1,10 +1,12 @@
-"C:\IAR\IAR_EWARM_8.20.1\arm\bin\armproc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
 
-"C:\IAR\IAR_EWARM_8.20.1\arm\bin\armsim2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armsim2.dll" 
 
-"D:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\Debug\Exe\Tm4cBoot_IAR.out" 
+"H:\WORK\IarWorkSpace\Tm4cBoot\Tm4cBoot_IAR\Debug\Exe\Tm4cBoot_IAR.out" 
 
---plugin "C:\IAR\IAR_EWARM_8.20.1\arm\bin\armbat.dll" 
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
 
 
 
