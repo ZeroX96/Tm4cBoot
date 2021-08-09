@@ -1,0 +1,21 @@
+"--endian=little" 
+
+"--cpu=Cortex-M4" 
+
+"--drv_vector_table_base=0x00" 
+
+"--fpu=VFPv4_SP" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\TexasInstruments\TM4C123GH6PM.ddf" 
+
+"--semihosting" 
+
+"--device=TM4C123GH6PM" 
+
+"--drv_interface_speed=500" 
+
+
+
+

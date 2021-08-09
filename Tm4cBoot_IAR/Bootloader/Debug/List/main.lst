@@ -1,0 +1,92 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.20.1.14183/W32 for ARM       08/Aug/2021  22:48:27
+# Copyright 1999-2017 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\main.c
+#    Command line =  
+#        -f C:\Users\ZeroX96\AppData\Local\Temp\EW853F.tmp
+#        (D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\main.c -lcN
+#        D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\Debug\List -o
+#        D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.0\arm\INC\c\DLib_Config_Normal.h" -I "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 8.0\arm\inc\TexasInstruments\" -Ol -I
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\arm\CMSIS\Include\")
+#    Locale       =  C
+#    List file    =  
+#        D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\Debug\List\main.lst
+#    Object file  =  
+#        D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\Debug\Obj\main.o
+#
+###############################################################################
+
+D:\Work\Projects\IarWS\Tm4cBoot\Tm4cBoot_IAR\Bootloader\main.c
+      1          #include <TM4C123GH6PM.h>
+      2          /*
+      3          = Firmware update signaled using a push button
+      4          = By default the system remains in the boot-mode if the application firm is corrupted or not existing
+      5          = Boot-Mode Led Indicator
+      6          = Boot to App jump only occurs if the app is existing and verified
+      7          = Each Program has its Interrupt Vector Table, Bootloader IVT is located at Address "0"
+      8          = Boot Manager should be as a part of the bootloader memory space
+      9          = CRC/Checksum Verification
+     10          = Extended Error Handling
+     11                                    ****SysDesign****
+     12                Reset ---->>>> BootManager ---->>> BootLoader ---->>>> ---->>>> |
+     13                    ^              |---->>>> Application ---->>>> |             |
+     14                    | <<<<---- <<<<---- <<<<---- <<<<---- <<<<----|<<<<---------|
+     15                                      ****Memory Layout****
+     16                                         /************/
+     17                                         /*          */
+     18                                         /* Boot IVT */
+     19                                         /*          */
+     20                                         /************/
+     21                                         /*   .....  */
+     22                                         /*Bootloader*/
+     23                                         /*   .....  */
+     24                                         /************/
+     25                                         /*          */
+     26                                         /*  App IVT */
+     27                                         /*          */
+     28                                         /************/
+     29                                         /*   .....  */
+     30                                         /*     A    */
+     31                                         /*     P    */
+     32                                         /*     P    */
+     33                                         /*   .....  */
+     34                                         /************/
+     35          
+     36          int main()
+     37          {
+     38            
+     39            return 0;
+     40          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   main
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  main
+
+ 
+ 4 bytes in section .text
+ 
+ 4 bytes of CODE memory
+
+Errors: none
+Warnings: 1
